@@ -2,7 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color: rgba(255, 255, 255, 0.87);
 
 }
@@ -19,12 +18,12 @@
   flex-direction: row;
   height: 100vh;
   width: 100%;
-  background-color: #3a8767;
+  background-color: #6b7b8c;
 }
 .center_div{
   width: 25%;
   height: 70vh;
-  background-color: rgb(151, 138, 181);
+  background-color: #3b4d61;
   color: black;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
   text-align: center;
@@ -32,7 +31,7 @@
 }
 
 h1{
-  color: rgba(0,0,0,0.87);
+  color: rgba(239, 157, 16, 0.87);
   font-size: 50px;
   margin-bottom: 30px;
   min-width: 64px;
@@ -48,22 +47,22 @@ input{
   outline: none;
   font-size: 20px;
   font-weight: 500;
-  border-bottom: 2px solid #469b3e;
+  border-bottom: 2px solid #6b7b8c;
   margin-right: 20px;
 }
 
 .newBtn{
   width: 50px;
   height: 55px;
-  background-color: rgb(85, 36, 169) !important;
+  background-color: #6b7b8c !important;
   color: white !important;
   box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.3);
   border-radius: 50% !important;
 }
 
 .newBtn:hover{
-  color: rgb(85, 36, 169) !important;
-  background: rgb(196, 190, 190)!important;
+  color: #6b7b8c !important;
+  background: rgb(196, 191, 191)!important;
 }
 
 
@@ -76,7 +75,7 @@ ol li{
   min-height: 40px;
   display: flex;
   align-items: center;
-  color: #856644;
+  color: #e4e0dc;
   text-transform: capitalize;
 }
 
@@ -90,8 +89,8 @@ ol li{
 }
 
 .todo_style .deleteIcon{
-  background-color: rgb(85, 36, 169);
-  color: rgb(196, 190, 190);
+  background-color: rgb(196, 190, 190);
+  color: #3b4d61;
   border-radius: 50%;
   height: 35px;
   width: 35px;
